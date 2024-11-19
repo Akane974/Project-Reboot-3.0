@@ -1,11 +1,6 @@
 name: MSBuild
 
-on:
-  workflow_call:
-    inputs:
-      branch:
-        required: true
-        type: string
+on: push
 
 env:
   # Path to the solution file relative to the root of the project.
